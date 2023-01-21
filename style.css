@@ -1,0 +1,152 @@
+/*
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+*/
+  @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+#container{
+    display: flex;
+}
+
+.left_side{
+    /*width: 320px;*/
+    width: 35%;
+    height: 100vh; 
+    /*height: 100%; */ 
+}
+
+.right_side{
+    width: 100%;
+    height: 100vh;    
+}
+
+.left_side img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.right_side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label{
+    font-size: 13px;    
+    /*margin-bottom: 5px;*/
+}
+
+input {
+    width: 350px;
+    height: 40px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    padding-left: 10px;
+}
+
+.carte_info_mois{
+    width: 70px;
+}
+
+.carte_info_annee{
+    width: 70px;
+    margin-left: 10px;
+}
+.carte_info_cvc{
+    width: 150px;
+    margin-left: 45px;
+}
+
+.carte_text_cvc{
+    margin-left: 100px;
+}
+
+.validation{
+    background-color: hsl(278, 68%, 11%);
+    color: white;
+    border-radius: 10px;
+    padding-left: 0px;
+}
+
+.carte_recto{
+    position: absolute;
+    top: 115px;
+    left: 125px;    
+    width: 370px;
+    height: 172px;    
+}
+
+.carte_recto img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.carte_verso{
+    position: absolute;
+    top: 350px;
+    left: 200px;    
+    width: 370px;
+    height: 172px;
+   
+}
+
+.carte_verso img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.logo{
+    width: 65px;
+    position: absolute;
+    top: 20px;
+    left: 25px;
+
+}
+
+.logo img{
+    object-fit: cover;
+    width: 100%;
+}
+
+.info_proprietaire{
+    color: white;
+    position: absolute;    
+    top: 100px;
+    left: 32px;   
+    font-size: 23px;
+    letter-spacing: 3px;
+}
+
+.numero_carte{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-weight: 300;
+}
+    
+.nom_proprietaire{
+    position: relative;
+    margin-top: 25px;   
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }

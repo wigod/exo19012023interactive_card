@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Interactive card details form</title>
+</head>
+<body>
+<div id="container">
+    <div class="left_side">
+      <img src="images/bg-main-desktop.png" />
+    </div>
+    <div class="right_side">
+      <div class="form_content">
+        <form>
+          <label for="nom">CARDHOLDER NAME</label>
+          <br/><input type="text" name="nom" placeholder="e.g. Jane Appleseed" />
+          
+          <br/><label for="numero">CARD NUMBER</label>
+          <br/><input type="text" name="numero" placeholder="e.g. 1234 5678 9123 0000" />
+
+          <br/><label for="date_info">EXP. DATE (MM/YY)</label>
+          <label for="date_info" class="carte_text_cvc">CVC</label>
+          <br/><input type="text" class="carte_info_mois" name="date_mois" placeholder="MM" />
+          <input type="text" class="carte_info_annee" name="date_annee" placeholder="YY" />
+          <input type="text" class="carte_info_cvc" name="date_annee" placeholder="e.g. 123" />
+         <br/><input type="submit" class="validation" name="validation" value="Confirm" />
+        </form>
+      </div>      
+    </div>
+    <div class="carte_recto">
+        <img src="images/bg-card-front.png" />
+
+        <div class="logo">
+          <img src="images/card-logo.svg" />
+        </div>
+
+        <div class="info_proprietaire">
+        <h4 class="numero_carte" >0000 0000 0000 0000</h4> 
+        <div class="nom_proprietaire">
+          <p>Jane Appleseed</p>   
+           <p>00/00</p>
+          </div>        
+       </div>
+      </div>
+
+      
+
+      <div class="carte_verso">
+        <img src="images/bg-card-back.png" >
+      </div>
+</div>
+
+
+ 
+
+  <!-- Completed state start 
+  Thank you!
+  We've added your card details
+  Continue
+  -->
+
+  <!--div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div -->
+</body>
+</html>
